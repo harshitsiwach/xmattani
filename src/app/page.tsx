@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
-import { Menu, X, ShoppingBag, ArrowRight, Leaf, Heart, Star, ChevronDown, Instagram, Youtube, Twitter } from "lucide-react";
+import { Menu, X, ShoppingBag, ArrowRight, Leaf, Heart, Star, ChevronDown } from "lucide-react";
 
 const products = [
   {
@@ -217,9 +217,9 @@ function Navbar() {
               <div className="mt-8 pt-8 border-t">
                 <p className="text-sm text-muted-foreground">Follow us</p>
                 <div className="flex gap-4 mt-4">
-                  <a href="#" className="text-2xl hover:scale-110 transition-transform"><Instagram className="w-6 h-6" /></a>
-                  <a href="#" className="text-2xl hover:scale-110 transition-transform"><Youtube className="w-6 h-6" /></a>
-                  <a href="#" className="text-2xl hover:scale-110 transition-transform"><Twitter className="w-6 h-6" /></a>
+                  <a href="#" className="text-2xl hover:scale-110 transition-transform">📸</a>
+                  <a href="#" className="text-2xl hover:scale-110 transition-transform">▶️</a>
+                  <a href="#" className="text-2xl hover:scale-110 transition-transform">𝕏</a>
                 </div>
               </div>
             </motion.div>
@@ -553,14 +553,14 @@ function Footer() {
               Ancient Indian wellness, crafted for modern creators. Premium herbal drinks inspired by Ayurveda.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-2 rounded-full bg-accent/50 hover:bg-primary hover:text-primary-foreground transition-colors">
-                <Instagram className="w-5 h-5" />
+              <a href="#" className="p-2 rounded-full bg-accent/50 hover:bg-primary hover:text-primary-foreground transition-colors text-lg">
+                📸
               </a>
-              <a href="#" className="p-2 rounded-full bg-accent/50 hover:bg-primary hover:text-primary-foreground transition-colors">
-                <Youtube className="w-5 h-5" />
+              <a href="#" className="p-2 rounded-full bg-accent/50 hover:bg-primary hover:text-primary-foreground transition-colors text-lg">
+                ▶️
               </a>
-              <a href="#" className="p-2 rounded-full bg-accent/50 hover:bg-primary hover:text-primary-foreground transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="#" className="p-2 rounded-full bg-accent/50 hover:bg-primary hover:text-primary-foreground transition-colors text-lg">
+                𝕏
               </a>
             </div>
           </div>
